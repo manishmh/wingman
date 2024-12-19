@@ -21,6 +21,7 @@ const SidebarMenu = ({
   return (
     <Link href={link}>
       <div
+        key={title}
         className={cn(
           `w-10 rounded-lg aspect-square grid place-items-center text-2xl ${
             pathname === link && "bg-white"
