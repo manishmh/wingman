@@ -25,7 +25,7 @@ const Sidebar = () => {
         <SidebarMenu title="home" link="/dashboard" logo={<GoHomeFill />} />
         <SidebarMenu
           title="chat"
-          link="/dashboard/chat"
+          link="/dashboard/home/chats"
           logo={<PiChatTeardropFill />}
         />
         <SidebarMenu
