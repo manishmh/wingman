@@ -1,4 +1,5 @@
 import HomeMenu from "@/components/home/menu";
+import ToggleMenu from "@/components/sidebar/toggle-menu";
 import { ReactNode } from "react";
 import {
   PiChartPieSliceFill,
@@ -10,7 +11,7 @@ const HomeLayout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="sm:ml-16 w-full">
       <div className="border-b">
-        <div className="flex gap-4 px-4 md:px-10 py-4 md:py-6">
+        <div className="flex gap px-4 md:px-10 py-3 md:py-5">
           <HomeMenu
             link="/dashboard/home/summary"
             title="Summary"
@@ -26,6 +27,7 @@ const HomeLayout = ({ children }: { children: ReactNode }) => {
             title="Chats"
             logo={<PiChatCircleTextFill />}
           />
+          <ToggleMenu />
         </div>
       </div>
       {children}
