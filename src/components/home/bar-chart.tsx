@@ -32,7 +32,7 @@ const chartConfig = {
 
 export function BarChartComponent() {
   return (
-    <Card className="border-none mx-2 mt-2 -translate-y-[55px] bg-transparent">
+    <Card className="border-none mx-2 mt-2 -translate-y-[55px] bg-transparent ">
       <CardContent className="mx-12 translate-y-2">
         <ChartContainer config={chartConfig}>
           <BarChart

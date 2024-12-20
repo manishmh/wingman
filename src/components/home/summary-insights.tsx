@@ -7,8 +7,8 @@ const SummaryInsights = () => {
   return (
     <div>
       <h1 className="text-font-black font-medium text-2xl">Insights</h1>
-      <div className="mt-12 gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        <div className="w-full relative border border-gray-200 shadow rounded-2xl lg:col-span-2">
+      <div className="mt-12 gap-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+        <div className="w-full relative border border-gray-200 shadow rounded-2xl xl:col-span-2 overflow-hidden">
           <div className="w-full h- absolute bottom-0">
             <BarChartComponent />
           </div>

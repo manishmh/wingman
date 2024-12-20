@@ -30,7 +30,7 @@ const chartData = [
 
 export function LineChartComponent() {
   return (
-    <Card className="rounded-2xl bg-transparent border-none">
+    <Card className="rounded-2xl bg-transparent border-none ">
       <CardHeader>
         <CardDescription className="uppercase font-medium tracking-wide flex items-center gap-2">
           <PiChatTeardropFill /> Consultations
