@@ -11,7 +11,7 @@ const HomeLayout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="sm:ml-16 w-full">
       <div className="border-b">
-        <div className="flex gap px-4 md:px-10 py-3 md:py-5">
+        <div className="flex gap px-4 md:px-10 py-3 md:py-5 justify-between md:justify-normal">
           <HomeMenu
             link="/dashboard/home/summary"
             title="Summary"

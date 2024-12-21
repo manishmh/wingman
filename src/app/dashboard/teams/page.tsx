@@ -1,6 +1,6 @@
 const Teams = () => {
   return (
-    <div>Teams</div>
+    <div className="ml-16">Teams</div>
   )
 }
 
