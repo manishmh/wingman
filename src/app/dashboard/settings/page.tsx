@@ -1,6 +1,6 @@
 const Settings = () => {
   return (
-    <div>Settings</div>
+    <div className="ml-16">Settings</div>
   )
 }
 

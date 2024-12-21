@@ -34,7 +34,7 @@ const HomeMenu = ({
           }`}
         >
             <div className="flex items-center gap-2 px-4 py-2 text-lg">
-                {logo}
+                <span className="hidden md:block">{logo}</span>
                 <div className="font-medium text-base">{title}</div>
             </div>
         </div>

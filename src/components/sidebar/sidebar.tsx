@@ -10,7 +10,7 @@ const Sidebar = () => {
   const { sidebarOpen } = useSidebar();
   return (
     <div
-      className={`px-2 sm:w-16 bg-dark-green h-screen transition-all duration-500 fixed flex items-center py-6 flex-col justify-between *:
+      className={`px-2 z-50 sm:w-16 bg-dark-green h-screen transition-all duration-500 fixed flex items-center py-6 flex-col justify-between *:
       ${!sidebarOpen ? "-translate-x-full md:translate-x-0" : "translate-x-0"}
     `}
     >
